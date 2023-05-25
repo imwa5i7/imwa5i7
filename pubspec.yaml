@@ -1,0 +1,37 @@
+name: imwa5i7
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  adaptive_theme: ^3.2.0
+  characters: ^1.2.1
+  flutter:
+    sdk: flutter
+  flutter_rounded_progress_bar: ^0.2.0
+  font_awesome_flutter: ^10.4.0
+  get_it: ^7.2.0
+  google_fonts: ^4.0.3
+  responsive_builder: ^0.6.4
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Agustina
+      fonts:
+        - asset: assets/fonts/Agustina.ttf
